@@ -1,7 +1,0 @@
-npm vite@4.1.0 
-NOm file 
-React 
-JavaScript 
-cd NOm file 
-npm install 
-npm run dev // to run the server 
