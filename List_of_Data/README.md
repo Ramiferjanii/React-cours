@@ -2,8 +2,8 @@
 
 A simple React application demonstrating how to display and interact with a list of data items.
 
-![Project Preview](https://via.placeholder.com/400x250.png?text=Project+Preview) 
-*Add your screenshot URL here*
+![Project Preview]([https://via.placeholder.com/400x250.png?text=Project+Preview](https://github.com/Ramiferjanii/React-cours/blob/main/List_of_Data/ScreenShot/Screenshot%202025-02-10%20221603.png)) 
+
 
 ## Features
 
