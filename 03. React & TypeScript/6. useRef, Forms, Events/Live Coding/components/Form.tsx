@@ -1,6 +1,6 @@
 
 import { FormEvent, useRef, useState } from "react"
-
+import '../style.css'
 
 type formData = {
     name: string , 
