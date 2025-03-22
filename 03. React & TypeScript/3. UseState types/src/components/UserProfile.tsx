@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import '../style.css'
 interface UserProfileState {
     name :string ,
     age : number , 
@@ -34,7 +34,7 @@ const updateAge = (age : number) => {
 }
 
   return (
-    <div>
+    <div className="user-profile-container" >
     <h2>User prfile </h2>
 
 
