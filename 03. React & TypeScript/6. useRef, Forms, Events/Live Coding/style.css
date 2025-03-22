@@ -1,0 +1,94 @@
+.form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-input {
+    padding: 0.8rem 1rem;
+    border: 2px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #4dabf7;
+    box-shadow: 0 0 0 3px rgba(77, 171, 247, 0.25);
+  }
+  
+  .form-input::placeholder {
+    color: #adb5bd;
+  }
+  
+  .submit-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #4dabf7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #339af0;
+  }
+  
+  .submitted-data {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .submitted-data h1 {
+    font-size: 1.2rem;
+    color: #343a40;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid #f1f3f5;
+  }
+  
+  .submitted-data h1:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 576px) {
+    .form-container {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  
+    .submitted-data h1 {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Password security styling */
+  .submitted-data h1:nth-child(3) {
+    color: #e03131;
+    font-family: monospace;
+    font-size: 1.1rem;
+  }
+  
+  /* Remove number input arrows */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
